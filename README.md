@@ -4,7 +4,9 @@ This repository contains the implementation of different data structures like ar
 
 #### Table of Contents
 
-[`Create your own array with all the python functions`]("./my_list.py") 
+[`Create your own array with all the python functions`](./my_list.py) 
+
+[`Create your own linked list with all the python functions`](./linked_list.py)
 
 ## Author and Social
 
