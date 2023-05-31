@@ -139,6 +139,22 @@ class LinkedList:
            current_node = current_node.next
         max_value.data = value
 
+    """
+    Problem: Sum all the values at the odd index in the linked list
+    """
+    def sum_odd_nodes(self):
+        current_node = self.head
+        counter = 0 
+        result = 0 
+
+        while current_node != None: 
+            if counter % 2 != 0: 
+                result += current_node.data
+
+            counter += 1 
+            current_node = current_node.next 
+        
+        return result 
 
     def __str__(self) -> str:
         result = ""
@@ -157,12 +173,7 @@ def main():
     L1.insert_head(3)
     L1.insert_head(4)
     print(L1)
-    L1.replace_max(17) 
-    print(L1)
-    L1.replace_max(20) 
-    print(L1)
-
-
+    print(L1.sum_odd_nodes())
 
 
 if __name__ == "__main__":

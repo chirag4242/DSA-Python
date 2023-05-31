@@ -8,6 +8,7 @@ This repository contains the implementation of different data structures like ar
 
 - [`Create your own linked list with all the python functions`](./linked_list.py)
   - [`Find max value and replace it with given value (replace_max function)`](./linked_list.py#L133)
+  - [`Find Sum of all the values at the odd index in the linked list (sum_odd_nodes)`](./linked_list.py#L145)
 
 ## Author and Social
 
