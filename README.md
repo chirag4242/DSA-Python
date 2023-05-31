@@ -7,7 +7,7 @@ This repository contains the implementation of different data structures like ar
 - [`Create your own array with all the python functions`](./my_list.py) 
 
 - [`Create your own linked list with all the python functions`](./linked_list.py)
-  - [`Find max value and replace it with given value (replace_max function)`](./linked_list.py)
+  - [`Find max value and replace it with given value (replace_max function)`](./linked_list.py#L133)
 
 ## Author and Social
 
