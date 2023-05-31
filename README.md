@@ -6,6 +6,8 @@ This repository contains the implementation of different data structures like ar
 
 [`Create your own array with all the python functions`](./my_list.py) 
 
+[`Create your own linked list with all the python functions`](./linked_list.py)
+
 ## Author and Social
 
 [![chirag42](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=flat-square&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/chirag42/) 
