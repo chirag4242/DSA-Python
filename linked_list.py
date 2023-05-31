@@ -125,6 +125,20 @@ class LinkedList:
             position += 1
         return 'IndexError'
 
+    """
+    Problem: find max value from the linked list and replace it with given value
+    traverse over each element of the linked list then store node with bigger value in max_value then 
+    replace the data with the given value
+    """
+    def replace_max(self, value):
+        current_node = self.head
+        max_value = self.head
+        while current_node != None: 
+           if current_node.data > max_value.data:
+                max_value = current_node
+           current_node = current_node.next
+        max_value.data = value
+
 
     def __str__(self) -> str:
         result = ""
@@ -143,7 +157,10 @@ def main():
     L1.insert_head(3)
     L1.insert_head(4)
     print(L1)
-    print(L1.search (1))
+    L1.replace_max(17) 
+    print(L1)
+    L1.replace_max(20) 
+    print(L1)
 
 
 
